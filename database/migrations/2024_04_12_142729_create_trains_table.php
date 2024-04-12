@@ -15,10 +15,9 @@ return new class extends Migration
             $table->id();
             $table->timestamps();
 
-            $table->string('company');
+            $table->string('train_company');
             $table->string('departure');
             $table->string('arrival');
-            $table->string('company');
             $table->dateTime('departure_time');
             $table->dateTime('arrival_time');
             $table->string('train_code');
